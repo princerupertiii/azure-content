@@ -207,7 +207,7 @@ And finally update the back-end URL to select the version of the service desired
 	<set-backend-service
           base-url="@(context.Api.ServiceUrl.ToString() + "api/" + (string)context.Variables["clientversion"] + "/")" />
 
-The completely policy is as follows.
+The completed policy is as follows.
 
 	 <inbound>
 		<base />
